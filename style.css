@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: right;
+    padding: 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ff00; /* vihreä väri linkeille */
+}
+
+.content {
+    background-image: url('background-image.jpg'); /* Vaihda kuva */
+    background-size: cover;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsiivisuus */
+@media only screen and (max-width: 600px) {
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
