@@ -47,13 +47,11 @@ nav a {
 }
 
 .content::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Himmennetty musta peite */
+    background-image: url('tausta.jpg'); /* Vaihda kuva */
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    opacity: 0.1;    
     z-index: 0;
 }
 
