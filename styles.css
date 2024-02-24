@@ -42,11 +42,20 @@ nav a {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 20px;
-    opacity: 0.2;
+    opacity: 0.1;
     z-index: 1;
 }
 
-
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Himmennetty musta peite */
+    z-index: 0;
+}
 
 footer {
     background-color: black;
