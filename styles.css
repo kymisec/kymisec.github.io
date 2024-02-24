@@ -39,7 +39,8 @@ nav a {
 
 .content {
     background-image: url('tausta.jpg'); /* Vaihda kuva */
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
