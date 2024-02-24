@@ -41,13 +41,14 @@ nav a {
     position: relative;
     z-index: 1;
     background-image: url('tausta.jpg'); /* Vaihda kuva */
-    background-size: 100% 90%; /* Aseta taustakuvan occupasy */
-    
+    background-size: contain; /* Aseta taustakuvan occupasy */
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
 .content::before {
     content: "";
+    opacity: 80%;
     position: absolute;
     top: 0;
     left: 0;
